@@ -15,7 +15,7 @@ Bootstrap, and React Native. The backend was written in JavaScript.
 ---
 
 ## Tools Used
-- VSCode
+- Visual Studio Code
 - React Native
 
 ---
