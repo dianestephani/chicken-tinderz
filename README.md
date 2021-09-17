@@ -20,13 +20,6 @@ Bootstrap, and React Native. The backend was written in JavaScript.
 
 ---
 
-## Recent Updates
-
-#### V 1.4
-*Added OAuth for MySpace* - 23 Jan 2003
-
----
-
 ## Getting Started
 
 Clone this repository to your local machine.
@@ -49,23 +42,6 @@ cd YourRepo/YourProject
 dotnet run
 ```
 Unit testing is included in the __________________ project using the pytest test framework. Tests have been provided for models, view models, controllers, and utility classes for the application.
-
----
-
-## Usage
-***[Provide some images of your app with brief description as title]***
-
-### Overview of Recent Posts
-![Overview of Recent Posts](https://via.placeholder.com/500x250)
-
-### Creating a Post
-![Post Creation](https://via.placeholder.com/500x250)
-
-### Enriching a Post
-![Enriching Post](https://via.placeholder.com/500x250)
-
-### Viewing Post Details
-![Details of Post](https://via.placeholder.com/500x250)
 
 ---
 ## Data Flow (Frontend, Backend, REST API)
