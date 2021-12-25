@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Card from './src/components/tinderCard'; 
 
 //Writing our app as a function called App that's both defined and then exported right here. At 46:21 we have Image Background, name and bio, and shadow.

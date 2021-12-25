@@ -1,7 +1,8 @@
 import React from 'react';
 import Text from 'react-native';
 
-const Card = () => {
+const Card = (props) => {
+    const {name, image, bio} = props;
     return (
         <View style = {styles.card}>
           
