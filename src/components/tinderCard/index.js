@@ -1,26 +1,26 @@
 import React from 'react';
 import Text from 'react-native';
 
+
+//We've turned the card into a component that generates our "props" so we don't have to hard code every single card into the app.
 const Card = (props) => {
     const {name, image, bio} = props;
     return (
-        <View style = {styles.card}>
+      <View style = {styles.card}>
           
       <ImageBackground source = {{
-          uri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png'
+          uri: image,
         }}
           style =  {styles.image}>
     
-      <View style = {styles.cardInner}>
-                <Text style = {styles.name}>Elon Musk</Text>
-                <Text style = {styles.bio}> 
-                  A dude with a rocket is looking for a gal with fuel
-                </Text>
-              </View>
+        <View style = {styles.cardInner}>
+          <Text style = {styles.name}> {name} </Text>
+          <Text style = {styles.bio}> {bio} </Text>
+        </View>
     
-        </ImageBackground>
+      </ImageBackground>
     
-      </View>
+    </View>
     
   );
     
